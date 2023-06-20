@@ -2,6 +2,8 @@
 
 Your Window to the Universe. Instantly search and access NASA's vast image library. Discover stunning space photos, celestial objects, and more. Unleash your curiosity and explore the wonders of space with ease.
 
+Demo: https://astro-search-chi.vercel.app/
+
 ## How to run this app locally 
 
 1) Clone this repository by running
