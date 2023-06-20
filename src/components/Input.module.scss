@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    height: 2.5em;
+    padding: 0.2rem 0.8rem;
+    border-radius: 20px;
+    background: var(--color-component);
+    border: 1px solid transparent;
+    transition: border-color 0.25s;
+    width: 18rem;
+
+    button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-self: center;
+    }
+
+    input {
+        background: none;
+        border: none;
+        color: var(--color-text);
+        width: 100%;
+        margin-left: 0.2rem;
+
+        font-size: 1rem;
+
+        &:focus {
+            outline: none;
+        }
+
+        &::placeholder {
+            color: var(--color-text);
+        }
+    }
+
+    &:hover {
+        border-color: #646cff;
+    }
+}

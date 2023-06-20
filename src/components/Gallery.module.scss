@@ -1,0 +1,18 @@
+.gallery {
+    padding: 2rem 1rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    gap: 1rem;
+}
+
+.loader {
+    font-size: 2em;
+    cursor: pointer;
+    height: 275px;
+}
+
+.not_found_container {
+    display: grid;
+    justify-content: center;
+}
